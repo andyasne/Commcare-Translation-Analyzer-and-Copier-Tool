@@ -1,0 +1,2 @@
+# Commcare-Translation-Analyzer-and-Copier-Tool
+This is an excel VB macro tool that uses exported commcare app latest translation and a previously exported translated excel file as an input and do various analysis, logs erroneous entries (mismatched &lt;output..),identifies and logs changed label keys and changed default English, identifies and logs missing translations and performs coping for correct entries.
