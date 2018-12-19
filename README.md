@@ -1,4 +1,4 @@
-# Commcare-Translation-Analyzer-and-Copier-Tool
+# Commcare Translation Analyzer and Copier Tool
 
 #### Intro
 
