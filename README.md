@@ -6,9 +6,9 @@
 
 •	Allows us not to freeze commcare application building process while translation is in  progress.
 
-•	This tool Allows us to partially update commcare translation in the future with ease. The hectic task of doing translation can happen at different time along the lifeline of app building.
+•	This tool Allows us to partially update commcare translation in the future with ease. The hectic task of doing translation can happen at different times along the lifeline of app building.
 
-•	Works Great for a huge app with many labels
+•	Works Great for a huge app with many labels saving time
 
 #### What it does
 
