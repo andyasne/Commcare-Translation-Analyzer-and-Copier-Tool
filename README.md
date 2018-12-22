@@ -2,13 +2,13 @@
 
 #### Intro
 
-•	This is an excel VB macro tool that uses exported commcare app latest translation and a previously exported translated excel file as an input and do various analysis, logs erroneous entries (mismatched <output..),identifies and logs changed label keys and changed default English, identifies and logs missing translations and performs coping for correct entries.
+•	This is an excel VB macro tool that uses exported commcare app latest translation and a previously exported translated excel file as an input and do various analysis, logs erroneous entries (mismatched <output..),identifies and logs changed label keys and changed default English, identifies and logs missing translations,find missing translations by searching from other modules with the same English label and performs coping for correct entries.
 
 •	Allows us not to freeze commcare application building process while translation is in  progress.
 
-•	This tool Allows us to partially update commcare translation in the future with ease. The hectic task of doing translation can happen at different time along the lifeline of app building.
+•	This tool Allows us to partially update commcare translation in the future with ease. The hectic task of doing translation can happen at different times along the lifeline of app building.
 
-•	Works Great for a huge app with many labels
+•	Works Great for a huge app with many labels saving time
 
 #### What it does
 
@@ -21,6 +21,9 @@
 •	Checks on all translated labels input placeholders like <output../> and create a log if there are any mismatch.
 
 •	By Going through all the modules keys if the keys are found on the translated doc and the default English is not changed and translated labels are found for the three languages , the tool copies the translated labels to the exported sheet and creates log entry under "copied log" sheet with the total count on top
+
+•	For Missing translations this tool will search from other modules the default english and use the translated text for the language if exists.
+
 
 #### How to use
 Very very simple..
